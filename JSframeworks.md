@@ -36,22 +36,68 @@ designed to simplify the development of JavaScript-based applications.
 
 ---
 
-## Hlavné vlastnosti
+## Fullstack Development
 
-### 1. **React**
-- Component-based architecture.
-- Virtual DOM for fast rendering.
-- Large ecosystem (e.g., Redux, React Router).
+- Fullstack JavaScript frameworks provide tools to build both the frontend and backend of an application using a single language, JavaScript.
+- They unify development workflows and reduce the need for switching between languages or environments.
 
-### 2. **Vue.js**
-- Reactive two-way data binding.
-- Lightweight and easy to learn.
-- Flexible integrations.
+---
 
-### 3. **Angular**
-- Full-featured MVC framework.
-- Dependency injection.
-- TypeScript-based.
+### Advantages
+
+- Single Language: Developers only need to learn JavaScript for the entire stack.
+- Code Sharing: Share business logic and utilities between frontend and backend.
+- Efficiency: Faster development cycles with streamlined workflows.
+- Scalability: Many frameworks support serverless deployments and cloud-native architecture.
+
+---
+
+### Components of a Fullstack Framework
+
+- Frontend Tools: Built-in routing, state management, and templating for interactive UIs.
+- Backend Features: Server rendering, REST/GraphQL API generation, and middleware.
+- Database Integration: Direct integration with databases like MongoDB, PostgresQL, etc.
+
+---
+
+### Real-World Applications
+
+- Enterprise applications requiring real-time features.
+- Static websites with dynamic components.
+- Full-fledged SPAs (Single Page Applications) and PWAs (Progressive Web Apps).
+
+---
+
+## Self-Serve Creation and Deployment
+
+- Many modern JavaScript frameworks offer self-serve tools that simplify app creation and deployment without requiring extensive DevOps knowledge.
+- These tools help developers quickly set up, build, and deploy applications.
+
+---
+
+### Key Features
+
+- CLI Tools: Command-line tools like create-next-app or vue-cli for scaffolding projects with best practices.
+- Boilerplates: Pre-configured templates to jumpstart projects.
+- Hosting Integration: Easy deployment to platforms like Vercel, Netlify, AWS, or Firebase.
+- Dev Tools: Built-in debugging, testing, and live-reloading for development convenience.
+
+---
+
+### Benefits of Self-Serve
+
+- Speed: Developers can deploy apps in minutes with minimal setup.
+- Accessibility: No need for deep cloud infrastructure knowledge.
+- Flexibility: Supports both static and dynamic deployments.
+- Scalability: Handle small projects to enterprise-grade apps effortlessly.
+
+---
+
+### Examples of Self-Serve Applications
+
+- A startup building and deploying a new MVP using Next.js and Vercel.
+- Personal portfolio websites hosted on Netlify.
+- Educational or community apps built with React and deployed on Firebase.
 
 ---
 
