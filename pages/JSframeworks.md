@@ -7,9 +7,9 @@
 
 ## What the-?
 
-- **JavaScript frameworks** are pre-written JavaScript libraries 
+- **JavaScript frameworks** are pre-written JavaScript libraries
 designed to simplify the development of JavaScript-based applications.
-- They provide **reusable components** and a structured way to organize code. 
+- They provide **reusable components** and a structured way to organize code.
 
 ---
 
@@ -23,9 +23,9 @@ designed to simplify the development of JavaScript-based applications.
 ## Napr.
 
 ### Frontend Frameworks
-- **React** 
+- **React**
 - **Vue.js** (progressive framework)
-- **Angular** 
+- **Angular**
 - **Svelte** (compiler-based framework)
 # nou
 ### Backend Frameworks
@@ -132,4 +132,3 @@ designed to simplify the development of JavaScript-based applications.
 ## Otázky?
 
 - Thank you for your attention!
-
