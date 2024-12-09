@@ -1,6 +1,6 @@
 # Úvod do JavaScript Frameworks
 ### Zjednodušený Web Development
-- **Autori:** Šimon Nemčič, Rebecca Kozmová
+- **Autori:** Šimon Nemčič, Rebecca Kozmová, Filip Žitný
 - **Dátum:** 12.12.2024
 
 ---
