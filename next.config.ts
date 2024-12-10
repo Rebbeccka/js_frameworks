@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
