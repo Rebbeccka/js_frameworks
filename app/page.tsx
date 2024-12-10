@@ -3,7 +3,6 @@ import path from "path";
 import matter from "gray-matter";
 import { MarkdownContent } from "../src/types/markdown";
 import ArticleDisplay from "../src/components/ArticleDisplay";
-import { metadata } from "./metadata";
 
 async function getAllMarkdownContent(): Promise<MarkdownContent[]> {
   const pagesDirectory = path.join(process.cwd(), "pages");
@@ -29,8 +28,6 @@ async function getAllMarkdownContent(): Promise<MarkdownContent[]> {
 
   return allPagesContent;
 }
-
-export { metadata };
 
 export default async function Home() {
   const allPages = await getAllMarkdownContent();
