@@ -1,7 +1,8 @@
 export interface MarkdownMetadata {
   title?: string;
   date?: string;
-  [key: string]: any;
+  // Use Record<string, unknown> instead of any
+  [key: string]: string | undefined | Record<string, unknown>;
 }
 
 export interface MarkdownContent {

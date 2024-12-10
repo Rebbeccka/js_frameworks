@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
@@ -14,9 +14,9 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
   content,
   className = "prose",
 }) => {
-  const [isClient, setIsClient] = useState(false);
+  const [isClient, setIsClient] = React.useState(false);
 
-  useEffect(() => {
+  React.useEffect(() => {
     setIsClient(true);
   }, []);
 
@@ -30,16 +30,21 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeHighlight]}
         components={{
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           h1: ({ node, ...props }) => (
             <h1 className="text-2xl font-bold mb-4" {...props} />
           ),
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           h2: ({ node, ...props }) => (
             <h2 className="text-xl font-bold mb-3" {...props} />
           ),
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           p: ({ node, ...props }) => <p className="mb-4" {...props} />,
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           a: ({ node, ...props }) => (
             <a className="text-blue-600 hover:underline" {...props} />
           ),
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           code: ({ node, inline, ...props }) =>
             inline ? (
               <code className="bg-gray-100 px-1 rounded" {...props} />
