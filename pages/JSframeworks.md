@@ -1,33 +1,144 @@
-# Úvod do JavaScript Frameworks
+# JavaScript Frameworks
 ### Zjednodušený Web Development
 - **Autori:** Šimon Nemčič, Rebecca Kozmová, Filip Žitný
 - **Dátum:** 12.12.2024
 
 ---
 
-## What the-?
+## Čo je JavaScript framework ?
+Kolekcia vopred napísaného, ​​štandardizovaného JavaScript kódu a ďalších nástrojov, ktoré vývojári používajú na zjednodušenie a urýchlenie rutinných úloh.
 
-- **JavaScript frameworks** are pre-written JavaScript libraries
-designed to simplify the development of JavaScript-based applications.
-- They provide **reusable components** and a structured way to organize code.
+
+### Čo môže byť súčasťou frameworku ?
+
+- **Knižnice a moduly**  
+- **UI Komponenty**  
+- **Routing systém**  
+- **State management**  
+- **Dokumentácia**  
+- **Komunita**  
+
+## Framework vs knižnica
+Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí, 
+ALE ..
+| Framework |  Library       | 
+|---------------|------------|
+| Obsahuje množstvo API, kompilátorov, podporných programov, knižníc atď.  | Kolekcia pomocných modulov, tried, objektov, funkcií, vopred napísaného kódu atď. | 
+|Je ťažké ho nahradiť  | Knižnicu je možné jednoducho nahradiť inou | 
+|Vývoj vyžaduje veľa kódu, ktorý znižuje výkon a zvyšuje čas načítania.| Vytvorenie vyžaduje menej kódu|
+|Nemožné začlenenie do existujúceho projektu |Jednoduchá integrácia do existujúcich projektov a pridanie niektorých špecifických funkcii|
+
+## 
+![image1](https://scrimba.com/articles/content/images/2022/12/library-versus-framework-diagram.png "Framework vs library")
+
+
+
+## Frontendové JS frameworky
+
+- **React**, **Vue**, **Angular**, Backbone,  Svelte, ...
+
+
+![jobsperframework](https://distantjob.com/wp-content/uploads/2023/05/Best-javascript-frameworks-1024x743.png)
+---
+![React Logo](https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg)
+
+-  architektúra založená na **komponentoch**
+- jednoduchá integrácia 
+- **jednosmerný tok dát**
+- jednoduchšia syntax vďaka **JSX** (JavaScript XML) 
+- **virtuálny DOM** (Document Object Model)
+- rýchlejší rendering, veľká výkonnosť
+- aktívna a podporujúca komunita 
+- vhodný pre začiatočníkov
+
+---
+### Nevýhody Reactu:
+
+- vyžaduje **štruktúru a konvenciu**
+-  môže byť ťažko skombinovateľný s iným JS kódom 
+-  rýchle zmeny
+- nedostatočná dokumentácia
+- **strmšia krivka učnia**, príliš **komplexný**
+
+## Komponenty 
+ - základný  stavebný kameň každého React projektu
+ - umožňujú rozdeliť UI na menšie, izolované časti, ktoré je možné opakovane používať
+ - môžu prijať **props** (hodnoty, ktoré im rodičovská komponenta odovzdá) 
+ - sú **immutable**- komponenty nemôžu meniť hodnoty, ktoré dostanú cez props
+
+
+![components](https://www.adcisolutions.com/sites/default/files/styles/scale_w770/public/2022-09/table_1.jpg.webp?itok=r6bjjEm8)
+
+---
+*Funkcionálne komponenty*
+- **bezstavové**, zameriavajú sa na prezentáciu prvkov UI
+- **jednoduché funkcie**, prijímajú **vstupy (props)** a vracajú **JSX**
+- ideálne pre scenáre, kde je zložitosť zbytočná
+
+*Triedne komponenty*
+- zavádzajú **výkon** a **dynamiku** do aplikácií
+- môžu riadiť stav, vhodné pre komponenty vyžadujúce dynamické správanie a interakciu
+
+![componenttypes](https://bosctechlabs.com/wp-content/uploads/2022/11/types-of-react-compoents.jpg)
+
+## React girls
+- komunita zameraná na frontend a ženy v IT
+- pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu 
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
+</p>
+
+---
+![Vue Logo](https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg)
+
+- skrátene **Vue**
+- kombinuje rôzne aspekty iných frameworkov
+- **flexibilný**
+- **prístupný** vďaka detailnej dokumentácii 
+- jednoduchá integrácia
+- ľahko pochopiteľný, **jemná krivka učenia** 
+ - dobrá voľba pre rýchly vývoj a vytváranie škálovateľných webových aplikácií v reálnom čase
+ - **efektívny** pri menších a stredne veľkých projektoch
+ - aktívna komunita, množstvo pluginov a nástrojov
 
 ---
 
-## Why the-?
-- Faster development.
-- Easier maintenance.
-- Built-in solutions for common problems.
+### Nevýhody Vue: 
+- časté aktualizácie
+- dokumentácia niekedy zaostáva za vývojom
+- nízka popularita medzi korporátnymi zamestnávateľmi
+- problémy s niektorými prehliadačmi (väčšinou Safari)
+- menšia komunita ako React alebo Angular
 
 ---
+![Angularlogo](https://www.vectorlogo.zone/logos/angular/angular-ar21.svg)
+- **Typescript based**
+- dvojcestná väzba dát (Two-way Data Binding)
+- modulárna architektúra
+- používa **komponenty**
+- komplexný ("all-in-one" framework)
+- **MVC** architektúra (Model-View-Controller)
+- vhodný na vytváranie **robustných jednostránkových aplikácií**  a rozsiahle projekty 
+- veľká komunita (Google)
+---
 
-## Napr.
+### Nevýhody: 
+- zložitosť, strmá krivka učenia
+- problém s výkonom, pomalé načitanie stránok
+- málo flexibilný
+---
 
-### Frontend Frameworks
-- **React**
-- **Vue.js** (progressive framework)
-- **Angular**
-- **Svelte** (compiler-based framework)
-# nou
+
+![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
+
+## JavaScript frameworks pre mobilné aplikácie 
+![nativereact](https://upload.vectorlogo.zone/logos/reactnativedev/images/199b2976-954e-4e42-8d79-12a784e2cdf9.svg)
+![cordova](https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-ar21.svg)
+
+![ionic](https://www.vectorlogo.zone/logos/ionicframework/ionicframework-ar21.svg)
+
+
+
 ### Backend Frameworks
 - **Node.js** (runtime environment)
 - **Express.js** (minimalist backend framework)
