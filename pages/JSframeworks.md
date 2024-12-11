@@ -1,7 +1,5 @@
-# JavaScript Frameworks
-### Zjednodušený Web Development
-- **Autori:** Šimon Nemčič, Rebecca Kozmová, Filip Žitný
-- **Dátum:** 12.12.2024
+# JavaScript frameworks
+### Zjednodušený webový vývoj
 
 ---
 
@@ -16,12 +14,7 @@ Kolekcia vopred napísaného, ​​štandardizovaného JavaScript kódu a ďal�
 - **Routing systém**  
 - **State management**  
 - **Dokumentácia**  
-- **Komunita**
-  
----
-
-![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
-
+- **Komunita**  
 
 ## Framework vs knižnica
 Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí, 
@@ -63,7 +56,7 @@ ALE ..
 -  môže byť ťažko skombinovateľný s iným JS kódom 
 -  rýchle zmeny
 - nedostatočná dokumentácia
-- **strmšia krivka učnia**, príliš **komplexný**
+- **strmšia krivka učenia**, príliš **komplexný**
 
 ## Komponenty 
  - základný  stavebný kameň každého React projektu
@@ -89,7 +82,10 @@ ALE ..
 ## React girls
 - komunita zameraná na frontend a ženy v IT
 - pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
+</p>
+
 ---
 ![Vue Logo](https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg)
 
@@ -114,7 +110,6 @@ ALE ..
 
 ---
 ![Angularlogo](https://www.vectorlogo.zone/logos/angular/angular-ar21.svg)
-- **Typescript based**
 - dvojcestná väzba dát (Two-way Data Binding)
 - modulárna architektúra
 - používa **komponenty**
@@ -131,8 +126,13 @@ ALE ..
 ---
 
 
+![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
+
 ## JavaScript frameworks pre mobilné aplikácie 
 ![nativereact](https://upload.vectorlogo.zone/logos/reactnativedev/images/199b2976-954e-4e42-8d79-12a784e2cdf9.svg)
+![cordova](https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-ar21.svg)
+
+![ionic](https://www.vectorlogo.zone/logos/ionicframework/ionicframework-ar21.svg)
 
 
 
