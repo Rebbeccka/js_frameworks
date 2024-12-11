@@ -77,7 +77,6 @@ ALE ..
 - zavádzajú **výkon** a **dynamiku** do aplikácií
 - môžu riadiť stav, vhodné pre komponenty vyžadujúce dynamické správanie a interakciu
 
-![componenttypes](https://bosctechlabs.com/wp-content/uploads/2022/11/types-of-react-compoents.jpg)
 
 ## React girls
 - komunita zameraná na frontend a ženy v IT
