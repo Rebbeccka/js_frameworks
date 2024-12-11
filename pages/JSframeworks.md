@@ -84,10 +84,7 @@ ALE ..
 ## React girls
 - komunita zameraná na frontend a ženy v IT
 - pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu 
-<p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
-</p>
-
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
 ---
 ![Vue Logo](https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg)
 
