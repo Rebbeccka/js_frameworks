@@ -4,7 +4,6 @@
 - **Dátum:** 12.12.2024
 
 ---
-<br>
 
 ## Čo je JavaScript framework ?
 Kolekcia vopred napísaného, ​​štandardizovaného JavaScript kódu a ďalších nástrojov, ktoré vývojári používajú na zjednodušenie a urýchlenie rutinných úloh.
