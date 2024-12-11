@@ -133,6 +133,7 @@ ALE ..
 
 ## JavaScript frameworks pre mobilné aplikácie 
 ![nativereact](https://upload.vectorlogo.zone/logos/reactnativedev/images/199b2976-954e-4e42-8d79-12a784e2cdf9.svg)
+![flutter](https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg)
 
 
 
