@@ -11,29 +11,29 @@ Kolekcia vopred napísaného, ​​štandardizovaného JavaScript kódu a ďal�
 
 ### Čo môže byť súčasťou frameworku ?
 
-- **Knižnice a moduly**  
-- **UI Komponenty**  
-- **Routing systém**  
-- **State management**  
-- **Dokumentácia**  
-- **Komunita**  
+- **Knižnice a moduly**
+- **UI Komponenty**
+- **Routing systém**
+- **State management**
+- **Dokumentácia**
+- **Komunita**
 
 ## Framework vs knižnica
-Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí, 
+Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí,
 ALE ..
-| Framework |  Library       | 
+| Framework |  Library       |
 |---------------|------------|
-| Obsahuje množstvo API, kompilátorov, podporných programov, knižníc atď.  | Kolekcia pomocných modulov, tried, objektov, funkcií, vopred napísaného kódu atď. | 
-|Je ťažké ho nahradiť  | Knižnicu je možné jednoducho nahradiť inou | 
+| Obsahuje množstvo API, kompilátorov, podporných programov, knižníc atď.  | Kolekcia pomocných modulov, tried, objektov, funkcií, vopred napísaného kódu atď. |
+|Je ťažké ho nahradiť  | Knižnicu je možné jednoducho nahradiť inou |
 |Vývoj vyžaduje veľa kódu, ktorý znižuje výkon a zvyšuje čas načítania.| Vytvorenie vyžaduje menej kódu|
 |Nemožné začlenenie do existujúceho projektu |Jednoduchá integrácia do existujúcich projektov a pridanie niektorých špecifických funkcii|
 
-## 
+##
 ![image1](https://scrimba.com/articles/content/images/2022/12/library-versus-framework-diagram.png "Framework vs library")
 
 
 
-## Frontendové JS frameworky
+## Frontendové Javascript frameworky
 
 - **React**, **Vue**, **Angular**, Backbone,  Svelte, ...
 
@@ -43,27 +43,27 @@ ALE ..
 ![React Logo](https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg)
 
 -  architektúra založená na **komponentoch**
-- jednoduchá integrácia 
+- jednoduchá integrácia
 - **jednosmerný tok dát**
-- jednoduchšia syntax vďaka **JSX** (JavaScript XML) 
+- jednoduchšia syntax vďaka **JSX** (JavaScript XML)
 - **virtuálny DOM** (Document Object Model)
 - rýchlejší rendering, veľká výkonnosť
-- aktívna a podporujúca komunita 
+- aktívna a podporujúca komunita
 - vhodný pre začiatočníkov
 
 ---
 ### Nevýhody Reactu:
 
 - vyžaduje **štruktúru a konvenciu**
--  môže byť ťažko skombinovateľný s iným JS kódom 
+-  môže byť ťažko skombinovateľný s iným JS kódom
 -  rýchle zmeny
 - nedostatočná dokumentácia
 - **strmšia krivka učenia**, príliš **komplexný**
 
-## Komponenty 
+## Komponenty
  - základný  stavebný kameň každého React projektu
  - umožňujú rozdeliť UI na menšie, izolované časti, ktoré je možné opakovane používať
- - môžu prijať **props** (hodnoty, ktoré im rodičovská komponenta odovzdá) 
+ - môžu prijať **props** (hodnoty, ktoré im rodičovská komponenta odovzdá)
  - sú **immutable**- komponenty nemôžu meniť hodnoty, ktoré dostanú cez props
 
 
@@ -82,7 +82,7 @@ ALE ..
 
 ## React girls
 - komunita zameraná na frontend a ženy v IT
-- pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu 
+- pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
 </p>
@@ -93,16 +93,16 @@ ALE ..
 - skrátene **Vue**
 - kombinuje rôzne aspekty iných frameworkov
 - **flexibilný**
-- **prístupný** vďaka detailnej dokumentácii 
+- **prístupný** vďaka detailnej dokumentácii
 - jednoduchá integrácia
-- ľahko pochopiteľný, **jemná krivka učenia** 
+- ľahko pochopiteľný, **jemná krivka učenia**
  - dobrá voľba pre rýchly vývoj a vytváranie škálovateľných webových aplikácií v reálnom čase
  - **efektívny** pri menších a stredne veľkých projektoch
  - aktívna komunita, množstvo pluginov a nástrojov
 
 ---
 
-### Nevýhody Vue: 
+### Nevýhody Vue:
 - časté aktualizácie
 - dokumentácia niekedy zaostáva za vývojom
 - nízka popularita medzi korporátnymi zamestnávateľmi
@@ -116,11 +116,11 @@ ALE ..
 - používa **komponenty**
 - komplexný ("all-in-one" framework)
 - **MVC** architektúra (Model-View-Controller)
-- vhodný na vytváranie **robustných jednostránkových aplikácií**  a rozsiahle projekty 
+- vhodný na vytváranie **robustných jednostránkových aplikácií**  a rozsiahle projekty
 - veľká komunita (Google)
 ---
 
-### Nevýhody: 
+### Nevýhody:
 - zložitosť, strmá krivka učenia
 - problém s výkonom, pomalé načitanie stránok
 - málo flexibilný
@@ -129,17 +129,77 @@ ALE ..
 
 ![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
 
-## JavaScript frameworks pre mobilné aplikácie 
+## JavaScript frameworks pre mobilné aplikácie
 ![nativereact](https://upload.vectorlogo.zone/logos/reactnativedev/images/199b2976-954e-4e42-8d79-12a784e2cdf9.svg)
 ![flutter](https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg)
 
+---
+
+## Backendovy vyvoj
+Je logika za webovimi applikacianmi, ktorá nebeží na strane klienta
+Hlavné problémy, ktoré rieši
+- správa requestov(hlavne HTTPS)
+- procesovanie a pre-renderovanie dát
+- komunikácia a organizácia databáz
+- autentifikacia a autorizacia dat
+- vývoj apíčiek
+- správa microservisov
+
+---
+
+### Komunikácia s frontendom
+
+***REST API** (Representational State Transfer) je široko používaný architektonický štýl
+na navrhovanie webových aplikácií. Spolieha sa na bezstavovú komunikáciu klient-server,
+zvyčajne cez HTTP.
+V JavaScript vývoji backendu sa REST API implementujú, aby umožnili
+frontendovej časti komunikovať so serverom, načítavať dáta a posielať aktualizácie.
+
+***GraphQL*** je alternatíva k REST, ktorá poskytuje flexibilnejší a efektívnejší spôsob
+dopytovania dát. Namiesto viacerých koncových bodov používa GraphQL jeden koncový bod,
+kde klienti môžu presne špecifikovať, aké dáta potrebujú. To môže znížiť množstvo dát
+prenášaných cez sieť a zlepšiť výkon aplikácií.
 
 
-### Backend Frameworks
-- **Node.js** (runtime environment)
-- **Express.js** (minimalist backend framework)
-- **Next.js** (React-based full-stack framework)
-- **NestJS** (scalable backend framework)
+---
+
+### Runtime
+***Node.js**: JavaScript runtime postavené na JavaScript engine Chrome V8.
+Je to najpopulárnejšia voľba pre vývoj backendu, známa svojou neblokujúcou, udalosťami riadenou architektúrou.
+•	***Deno***: Vytvorené Ryanom Dahlom, pôvodným tvorcom Node.js, Deno rieši niektoré nedostatky Node.js
+, ako sú bezpečnostné problémy a správa závislostí.
+•	***Bun***: Novší runtime, ktorý sa snaží byť rýchlejší ako Node.js a Deno, s dôrazom na výkon a skúsenosti
+vývojárov. Obsahuje vstavaný bundler, transpiler a správcu balíčkov. Je napísaný v Zigu
+
+---
+
+### Komunikácia s databázami
+
+•	SQL databázy: Knižnice ako Sequelize a Knex.js poskytujú ORM (Object-Relational Mapping) schopnosti pre
+SQL databázy, ako sú PostgreSQL, MySQL a SQLite.
+•	NoSQL databázy: Pre databázy ako MongoDB je populárnou voľbou Mongoose, ktorá ponúka riešenia založené
+na schémach pre modelovanie aplikačných dát.
+•	Grafové databázy: Neo4j je možné prístupovať pomocou Neo4j JavaScript drivera, vhodného pre aplikácie
+vyžadujúce komplexné modelovanie vzťahov.
+
+---
+
+### Populárne backendové frameworky
+***Express.js***: Minimálicticky a flexibilný framework pre webové aplikácie v Node.js,
+ktorý poskytuje robustnú sadu funkcií pre webové a mobilné aplikácie. Je známy pre svoju
+jednoduchosť a ľahkosť použitia.
+
+---
+
+### Ďalšie úvahy k backendu
+***Serverless architektúra***: Platformy ako AWS Lambda, Azure Functions a Google Cloud Functions
+umožňujú vývojárom spúšťať kód bez správy serverov, pričom sa sústredia na písanie obchodnej logiky.
+
+***Mikroservicies***: Rozdelenie aplikácií na menšie, nezávislé služby môže zlepšiť škálovateľnosť a
+udržateľnosť. Ľahká povaha JavaScriptu ho robí vhodným pre architektúru mikroslužieb.
+
+***Bezpečnosť***: Implementácia bezpečnostných najlepších praktík, ako je validácia vstupov,
+šifrovanie dát a bezpečné overovanie, je kľúčová v backendovom vývoji.
 
 ---
 
