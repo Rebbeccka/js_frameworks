@@ -1,14 +1,17 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { MarkdownContent } from "../types/markdown";
 import MarkdownRenderer from "./MarkdownRenderer";
+import SlidePresentation from "./SlidePresentation";
 
 interface ArticleDisplayProps {
   page: MarkdownContent;
 }
 
 const ArticleDisplay: React.FC<ArticleDisplayProps> = ({ page }) => {
+  const [isPresentationMode, setIsPresentationMode] = useState(false);
+
   const formatDate = (dateString: string) => {
     try {
       const date = new Date(dateString);
@@ -22,6 +25,10 @@ const ArticleDisplay: React.FC<ArticleDisplayProps> = ({ page }) => {
     }
   };
 
+  if (isPresentationMode) {
+    return <SlidePresentation content={page.content} />;
+  }
+
   return (
     <article className="mb-12">
       <header className="mb-4">
@@ -34,6 +41,14 @@ const ArticleDisplay: React.FC<ArticleDisplayProps> = ({ page }) => {
           </time>
         )}
       </header>
+      <div className="mb-4">
+        <button
+          onClick={() => setIsPresentationMode(true)}
+          className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+        >
+          Start Presentation
+        </button>
+      </div>
       <MarkdownRenderer content={page.content} />
       <hr className="my-8" />
     </article>
