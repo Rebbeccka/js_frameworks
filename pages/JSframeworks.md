@@ -17,6 +17,9 @@ Kolekcia vopred napísaného, ​​štandardizovaného JavaScript kódu a ďal�
 - **State management**
 - **Dokumentácia**
 - **Komunita**
+---
+
+![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
 
 ## Framework vs knižnica
 Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí,
@@ -124,10 +127,7 @@ ALE ..
 - zložitosť, strmá krivka učenia
 - problém s výkonom, pomalé načitanie stránok
 - málo flexibilný
----
 
-
-![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
 
 ## JavaScript frameworks pre mobilné aplikácie
 ![nativereact](https://upload.vectorlogo.zone/logos/reactnativedev/images/199b2976-954e-4e42-8d79-12a784e2cdf9.svg)
