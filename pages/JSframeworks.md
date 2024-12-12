@@ -11,31 +11,34 @@ Kolekcia vopred napísaného, ​​štandardizovaného JavaScript kódu a ďal�
 
 ### Čo môže byť súčasťou frameworku ?
 
-- **Knižnice a moduly**
-- **UI Komponenty**
-- **Routing systém**
-- **State management**
-- **Dokumentácia**
+- **Knižnice a moduly**  
+- **UI Komponenty**  
+- **Routing systém**  
+- **State management**  
+- **Dokumentácia**  
 - **Komunita**
+  ---
+
+![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
 
 ## Framework vs knižnica
-Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí,
+Framework a knižnica sú často zamieňané pojmy, ktoré používame na označenie rovnakých vecí, 
 ALE ..
-| Framework |  Library       |
+| Framework |  Knižnica      | 
 |---------------|------------|
-| Obsahuje množstvo API, kompilátorov, podporných programov, knižníc atď.  | Kolekcia pomocných modulov, tried, objektov, funkcií, vopred napísaného kódu atď. |
-|Je ťažké ho nahradiť  | Knižnicu je možné jednoducho nahradiť inou |
+| Obsahuje množstvo API, kompilátorov, podporných programov, knižníc atď.  | Kolekcia pomocných modulov, tried, objektov, funkcií, vopred napísaného kódu atď. | 
+|Je ťažké ho nahradiť  | Knižnicu je možné jednoducho nahradiť inou | 
 |Vývoj vyžaduje veľa kódu, ktorý znižuje výkon a zvyšuje čas načítania.| Vytvorenie vyžaduje menej kódu|
 |Nemožné začlenenie do existujúceho projektu |Jednoduchá integrácia do existujúcich projektov a pridanie niektorých špecifických funkcii|
 
-##
+## 
 ![image1](https://scrimba.com/articles/content/images/2022/12/library-versus-framework-diagram.png "Framework vs library")
 
 
 
-## Frontendové Javascript frameworky
+## Frontendové JS frameworky
 
-- **React**, **Vue**, **Angular**, Backbone,  Svelte, ...
+- **React**, **Vue**, **Angular**, Backbone,Ember, ...
 
 
 ![jobsperframework](https://distantjob.com/wp-content/uploads/2023/05/Best-javascript-frameworks-1024x743.png)
@@ -43,27 +46,27 @@ ALE ..
 ![React Logo](https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg)
 
 -  architektúra založená na **komponentoch**
-- jednoduchá integrácia
+- jednoduchá integrácia 
 - **jednosmerný tok dát**
-- jednoduchšia syntax vďaka **JSX** (JavaScript XML)
+- jednoduchšia syntax vďaka **JSX** (JavaScript XML) 
 - **virtuálny DOM** (Document Object Model)
 - rýchlejší rendering, veľká výkonnosť
-- aktívna a podporujúca komunita
+- aktívna a podporujúca komunita 
 - vhodný pre začiatočníkov
 
 ---
 ### Nevýhody Reactu:
 
 - vyžaduje **štruktúru a konvenciu**
--  môže byť ťažko skombinovateľný s iným JS kódom
+-  môže byť ťažko skombinovateľný s iným JS kódom 
 -  rýchle zmeny
 - nedostatočná dokumentácia
 - **strmšia krivka učenia**, príliš **komplexný**
 
-## Komponenty
+## Komponenty 
  - základný  stavebný kameň každého React projektu
  - umožňujú rozdeliť UI na menšie, izolované časti, ktoré je možné opakovane používať
- - môžu prijať **props** (hodnoty, ktoré im rodičovská komponenta odovzdá)
+ - môžu prijať **props** (hodnoty, ktoré im rodičovská komponenta odovzdá) 
  - sú **immutable**- komponenty nemôžu meniť hodnoty, ktoré dostanú cez props
 
 
@@ -82,7 +85,7 @@ ALE ..
 
 ## React girls
 - komunita zameraná na frontend a ženy v IT
-- pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu
+- pravidelné meetupy (3.štvrtok v mesiaci) na rôzne témy z oblasti vývoja, soft skills a webdesignu 
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65lAGHGNCaTP5AYj2TuQ7L1E5tCO6PvzfmQ&s" alt="Popis obrázka" />
 </p>
@@ -93,16 +96,16 @@ ALE ..
 - skrátene **Vue**
 - kombinuje rôzne aspekty iných frameworkov
 - **flexibilný**
-- **prístupný** vďaka detailnej dokumentácii
+- **prístupný** vďaka detailnej dokumentácii 
 - jednoduchá integrácia
-- ľahko pochopiteľný, **jemná krivka učenia**
+- ľahko pochopiteľný, **jemná krivka učenia** 
  - dobrá voľba pre rýchly vývoj a vytváranie škálovateľných webových aplikácií v reálnom čase
  - **efektívny** pri menších a stredne veľkých projektoch
  - aktívna komunita, množstvo pluginov a nástrojov
 
 ---
 
-### Nevýhody Vue:
+### Nevýhody Vue: 
 - časté aktualizácie
 - dokumentácia niekedy zaostáva za vývojom
 - nízka popularita medzi korporátnymi zamestnávateľmi
@@ -116,186 +119,118 @@ ALE ..
 - používa **komponenty**
 - komplexný ("all-in-one" framework)
 - **MVC** architektúra (Model-View-Controller)
-- vhodný na vytváranie **robustných jednostránkových aplikácií**  a rozsiahle projekty
+- vhodný na vytváranie **robustných jednostránkových aplikácií**  a rozsiahle projekty 
 - veľká komunita (Google)
 ---
 
-### Nevýhody:
+### Nevýhody: 
 - zložitosť, strmá krivka učenia
 - problém s výkonom, pomalé načitanie stránok
 - málo flexibilný
 ---
 
-
-![popularity](https://www.codica.com/static/f43531a22c330caaa7b5861f033c53f3/0523d/Most_used_web_frameworks_among_developers_worldwide_as_of_2022_min_32c29a2d8c.jpg)
-
-## JavaScript frameworks pre mobilné aplikácie
+## JavaScript frameworks pre mobilné aplikácie 
 ![nativereact](https://upload.vectorlogo.zone/logos/reactnativedev/images/199b2976-954e-4e42-8d79-12a784e2cdf9.svg)
 ![flutter](https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg)
 
----
 
-## Backendovy vyvoj
-Je logika za webovimi applikacianmi, ktorá nebeží na strane klienta
-Hlavné problémy, ktoré rieši
-- správa requestov(hlavne HTTPS)
-- procesovanie a pre-renderovanie dát
-- komunikácia a organizácia databáz
-- autentifikacia a autorizacia dat
-- vývoj apíčiek
-- správa microservisov
+
+### Backend Frameworks
+- **Node.js** (runtime prostredie)
+- **Express.js** (minimalistický backend framework)
+- **Next.js** (založený na Reacte)
+- **NestJS** (škálovateľný framework)
 
 ---
 
-### Komunikácia s frontendom
+## Fullstack 
 
-***REST API** (Representational State Transfer) je široko používaný architektonický štýl
-na navrhovanie webových aplikácií. Spolieha sa na bezstavovú komunikáciu klient-server,
-zvyčajne cez HTTP.
-V JavaScript vývoji backendu sa REST API implementujú, aby umožnili
-frontendovej časti komunikovať so serverom, načítavať dáta a posielať aktualizácie.
-
-***GraphQL*** je alternatíva k REST, ktorá poskytuje flexibilnejší a efektívnejší spôsob
-dopytovania dát. Namiesto viacerých koncových bodov používa GraphQL jeden koncový bod,
-kde klienti môžu presne špecifikovať, aké dáta potrebujú. To môže znížiť množstvo dát
-prenášaných cez sieť a zlepšiť výkon aplikácií.
-
+- Fullstack frameworky JavaScriptu poskytujú nástroje na vytvorenie frontendu aj backendu aplikácie pomocou jediného jazyka, JavaScriptu.
+- Zjednocujú vývoj a redukujú potrebu striedania jazykov alebo prostredí.
 
 ---
 
-### Runtime
-***Node.js**: JavaScript runtime postavené na JavaScript engine Chrome V8.
-Je to najpopulárnejšia voľba pre vývoj backendu, známa svojou neblokujúcou, udalosťami riadenou architektúrou.
-•	***Deno***: Vytvorené Ryanom Dahlom, pôvodným tvorcom Node.js, Deno rieši niektoré nedostatky Node.js
-, ako sú bezpečnostné problémy a správa závislostí.
-•	***Bun***: Novší runtime, ktorý sa snaží byť rýchlejší ako Node.js a Deno, s dôrazom na výkon a skúsenosti
-vývojárov. Obsahuje vstavaný bundler, transpiler a správcu balíčkov. Je napísaný v Zigu
+### Výhody
+
+- Jediný jazyk: Vývojári stačí iba JavaScript pre celý stack
+- Zdieľanie kódu: Umožňuje udieľanie logiky a nástrojov medzi frontendom a backendom
+- Efektivita: Rýchlejší vývoj a efektívny workflow
+- Škálovateľnosť: Mnohé frameworky podporujú deployments bez servera a cloudovú natívnu architektúru
 
 ---
 
-### Komunikácia s databázami
+### Komponenty 
 
-•	SQL databázy: Knižnice ako Sequelize a Knex.js poskytujú ORM (Object-Relational Mapping) schopnosti pre
-SQL databázy, ako sú PostgreSQL, MySQL a SQLite.
-•	NoSQL databázy: Pre databázy ako MongoDB je populárnou voľbou Mongoose, ktorá ponúka riešenia založené
-na schémach pre modelovanie aplikačných dát.
-•	Grafové databázy: Neo4j je možné prístupovať pomocou Neo4j JavaScript drivera, vhodného pre aplikácie
-vyžadujúce komplexné modelovanie vzťahov.
+- Frontend Tools: Vstavaný routing, správa stavu a šablóny pre interaktívne používateľské rozhrania
+- Funkcie backendu: rendering servera, generovanie REST/GraphQL API a middleware
+- Integrácia databázy: Priama integrácia s databázami ako MongoDB, PostgresQL atď
 
 ---
 
-### Populárne backendové frameworky
-***Express.js***: Minimálicticky a flexibilný framework pre webové aplikácie v Node.js,
-ktorý poskytuje robustnú sadu funkcií pre webové a mobilné aplikácie. Je známy pre svoju
-jednoduchosť a ľahkosť použitia.
+### Aplikácie
 
----
-
-### Ďalšie úvahy k backendu
-***Serverless architektúra***: Platformy ako AWS Lambda, Azure Functions a Google Cloud Functions
-umožňujú vývojárom spúšťať kód bez správy serverov, pričom sa sústredia na písanie obchodnej logiky.
-
-***Mikroservicies***: Rozdelenie aplikácií na menšie, nezávislé služby môže zlepšiť škálovateľnosť a
-udržateľnosť. Ľahká povaha JavaScriptu ho robí vhodným pre architektúru mikroslužieb.
-
-***Bezpečnosť***: Implementácia bezpečnostných najlepších praktík, ako je validácia vstupov,
-šifrovanie dát a bezpečné overovanie, je kľúčová v backendovom vývoji.
-
----
-
-## Fullstack Development
-
-- Fullstack JavaScript frameworks provide tools to build both the frontend and backend of an application using a single language, JavaScript.
-- They unify development workflows and reduce the need for switching between languages or environments.
-
----
-
-### Advantages
-
-- Single Language: Developers only need to learn JavaScript for the entire stack.
-- Code Sharing: Share business logic and utilities between frontend and backend.
-- Efficiency: Faster development cycles with streamlined workflows.
-- Scalability: Many frameworks support serverless deployments and cloud-native architecture.
-
----
-
-### Components of a Fullstack Framework
-
-- Frontend Tools: Built-in routing, state management, and templating for interactive UIs.
-- Backend Features: Server rendering, REST/GraphQL API generation, and middleware.
-- Database Integration: Direct integration with databases like MongoDB, PostgresQL, etc.
-
----
-
-### Real-World Applications
-
-- Enterprise applications requiring real-time features.
-- Static websites with dynamic components.
-- Full-fledged SPAs (Single Page Applications) and PWAs (Progressive Web Apps).
+- Podnikové aplikácie vyžadujúce funkcie v reálnom čase
+- Statické webové stránky s dynamickými komponentmi
+- Plnohodnotné SPA (jednostránkové aplikácie) a PWA (progresívne webové aplikácie).
 
 ---
 
 ## Self-Serve Creation and Deployment
 
-- Many modern JavaScript frameworks offer self-serve tools that simplify app creation and deployment without requiring extensive DevOps knowledge.
-- These tools help developers quickly set up, build, and deploy applications.
+- Mnoho moderných JS frameworkov ponúka self-serve nástroje, ktoré zjednodušujú vytváranie aplikácií bez toho, aby si vyžadovali rozsiahle znalosti DevOps
+- Tieto nástroje pomáhajú vývojárom rýchlo nastaviť a nasadiť aplikácie
 
 ---
 
-### Key Features
+### Kľúčové vlastnosti
 
-- CLI Tools: Command-line tools like create-next-app or vue-cli for scaffolding projects with best practices.
-- Boilerplates: Pre-configured templates to jumpstart projects.
-- Hosting Integration: Easy deployment to platforms like Vercel, Netlify, AWS, or Firebase.
-- Dev Tools: Built-in debugging, testing, and live-reloading for development convenience.
-
----
-
-### Benefits of Self-Serve
-
-- Speed: Developers can deploy apps in minutes with minimal setup.
-- Accessibility: No need for deep cloud infrastructure knowledge.
-- Flexibility: Supports both static and dynamic deployments.
-- Scalability: Handle small projects to enterprise-grade apps effortlessly.
+- Nástroje CLI: Nástroje príkazového riadka, ako napríklad create-next-app alebo vue-cli na vytváranie projektov osvedčenými postupmi
+- Boilerplates: Vopred nakonfigurované šablóny na okamžité spustenie projektov
+- Integrácia hostingu: Jednoduché nasadenie na platformy ako Vercel, Netlify, AWS alebo Firebase
+- Vývojárske nástroje: Vstavané ladenie, testovanie a živé opätovné načítanie pre pohodlie vývoja
 
 ---
 
-### Examples of Self-Serve Applications
+### Výhody self-serve
 
-- A startup building and deploying a new MVP using Next.js and Vercel.
-- Personal portfolio websites hosted on Netlify.
-- Educational or community apps built with React and deployed on Firebase.
+- Rýchlosť: Vývojári môžu nasadiť aplikácie v priebehu niekoľkých minút
+- Dostupnosť: Nie sú potrebné hlboké znalosti cloudovej infraštruktúry
+- Flexibilita: Podporuje statické aj dynamické nasadenia
+- Škálovateľnosť: Bez námahy zvládajte malé projekty až po aplikácie podnikovej úrovne
 
 ---
 
-## Prečo si vybrať?
+### Príklady samoobslužných aplikácií
 
-### Key Benefits
-1. **Improved Productivity**
-    - Avoid reinventing the wheel.
-2. **Better Code Organization**
-    - Modular and maintainable structure.
-3. **Cross-Platform Development**
-    - Many frameworks support web, mobile, and desktop development.
+- Spustenie vytvárania a nasadzovania nového MVP pomocou Next.js a Vercel
+- Webové stránky osobného portfólia na Netlify.
+- Vzdelávacie alebo komunitné aplikácie vytvorené pomocou React a nasadené na Firebase
+
+---
+
+## Kľúčové výhody Frameworkov 
+1. **Vylepšená produktivita**
+2. **Lepšia organizácia kódu**
+ - modulárna a udržiavateľná štruktúra.
+3. **Vývoj viacerých platforiem**
+ - mnohé podporujú vývoj pre web, mobilné zariadenia aj počítače.
 
 ---
 
 ## Ako si vybrať?
-
-### Considerations
-- **Project Requirements**: Small apps vs. enterprise solutions.
-- **Learning Curve**: Developer experience with tools like TypeScript or JSX.
-- **Community Support**: Active communities ensure better libraries and resources.
+- **Požiadavky projektu**: Malé aplikácie vs. podnikové riešenia
+- **Krivka učenie**: Skúsenosti s nástrojmi ako TypeScript alebo JSX
+- **Podpora komunity**: Aktívne komunity zabezpečujú lepšie knižnice a zdroje
 
 ---
 
 ## Zhrnutie
-- JavaScript frameworks simplify the development process.
-- Choosing the right framework depends on project goals and team expertise.
-- Explore and experiment with different frameworks to find the best fit.
-
+- JavaScriptové frameworky zjednodušujú proces vývoja
+- Sorávny výber závisí od cieľov projektu a odbornosti tímu
+- Experimentujte s rôznymi frameworkami, aby ste našli ten najvhodnejší pre Vás
 ---
 
-## Otázky?
+<center>
+  <h1 style="font-size: 3em;">Ďakujeme za pozornosť!</h1>
+</center>
 
-- Thank you for your attention!
